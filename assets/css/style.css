@@ -44,17 +44,17 @@
   }
   
    .btn {
-    font-size: 1.3rem;
+    font-size: 16px;
     text-decoration:none;
     padding: 6px 5px;
     width: 100%;
     display: block;
     margin: 5px 0;
     border-radius: var(--border-radius);
-    color: var(--primary);
+    color:  white;
     border: none;
     outline: none;
-    background-color: var(--light-dark);
+    background-color: rgb(65, 156, 241);
     box-shadow: 3px 3px var(--dark);
     transform: translate(-1px, -1px);
   }
@@ -167,8 +167,9 @@
   }
   
   .form-label {
-    font-size: 1.1rem;
+    font-size: 24px;
     margin: 0 0 0 5px;
+    font-weight: bold;
   }
   
   .form-input {
