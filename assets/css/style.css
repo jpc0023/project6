@@ -44,26 +44,19 @@
   }
   
    .btn {
-    font-size: 1.3rem;
+    font-size: 16px;
     text-decoration:none;
     padding: 6px 5px;
     width: 100%;
     display: block;
     margin: 5px 0;
     border-radius: var(--border-radius);
-    color: var(--primary);
+    color:  white;
     border: none;
     outline: none;
-    background-color: var(--light-dark);
+    background-color: rgb(65, 156, 241);
     box-shadow: 3px 3px var(--dark);
     transform: translate(-1px, -1px);
-  }
-  
-   .btn:hover {
-    color: var(--primary);
-    background-color: var(--tertiary);
-    transform: translate(0, 0);
-    box-shadow: 2px 2px var(--dark);
   }
   
   .btn-inline {
@@ -112,16 +105,17 @@
     display: flex;
   }
   
-  .list-group {
+  .current-city {
     padding: 0;
-    list-style: none;
+    border: 2px black solid;
+
   }
   
   .list-item {
     margin-bottom: 10px;
     padding: 1.5%;
     border-radius: var(--border-radius);
-    background-color: var(--light-dark);
+    background-color: blue;
     color: var(--primary);
     text-decoration: none;
   }
@@ -151,11 +145,13 @@
     
   }
   
-  .card-header {
-    padding: 2.5%;
+  .card-title {
+    padding: 0.5%;
   }
   
   .card-body {
+    display: flex;
+    flex-wrap: wrap;
     padding: 2.5%;
   }
   
@@ -167,8 +163,9 @@
   }
   
   .form-label {
-    font-size: 1.1rem;
+    font-size: 24px;
     margin: 0 0 0 5px;
+    font-weight: bold;
   }
   
   .form-input {
